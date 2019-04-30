@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B3CF9212277D683000E6252 /* AnimTextFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3CF9202277D683000E6252 /* AnimTextFiled.m */; };
+		6B3CF9272277D6CF000E6252 /* CircleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3CF9242277D6CF000E6252 /* CircleItem.m */; };
+		6B3CF9282277D6CF000E6252 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B3CF9262277D6CF000E6252 /* CircleView.m */; };
 		6B6680B622718F85009D9BA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6680B522718F85009D9BA6 /* AppDelegate.m */; };
 		6B6680B922718F85009D9BA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6680B822718F85009D9BA6 /* ViewController.m */; };
 		6B6680BC22718F86009D9BA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B6680BA22718F85009D9BA6 /* Main.storyboard */; };
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B3CF91F2277D683000E6252 /* AnimTextFiled.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimTextFiled.h; sourceTree = "<group>"; };
+		6B3CF9202277D683000E6252 /* AnimTextFiled.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimTextFiled.m; sourceTree = "<group>"; };
+		6B3CF9232277D6CF000E6252 /* CircleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleItem.h; sourceTree = "<group>"; };
+		6B3CF9242277D6CF000E6252 /* CircleItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleItem.m; sourceTree = "<group>"; };
+		6B3CF9252277D6CF000E6252 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		6B3CF9262277D6CF000E6252 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 		6B6680B122718F85009D9BA6 /* AnimTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B6680B422718F85009D9BA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6B6680B522718F85009D9BA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +87,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B3CF9222277D6A6000E6252 /* circle */ = {
+			isa = PBXGroup;
+			children = (
+				6B3CF9232277D6CF000E6252 /* CircleItem.h */,
+				6B3CF9242277D6CF000E6252 /* CircleItem.m */,
+				6B3CF9252277D6CF000E6252 /* CircleView.h */,
+				6B3CF9262277D6CF000E6252 /* CircleView.m */,
+			);
+			path = circle;
+			sourceTree = "<group>";
+		};
 		6B6680A822718F85009D9BA6 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +121,7 @@
 		6B6680B322718F85009D9BA6 /* AnimTextField */ = {
 			isa = PBXGroup;
 			children = (
+				6B3CF9222277D6A6000E6252 /* circle */,
 				6B6680B422718F85009D9BA6 /* AppDelegate.h */,
 				6B6680B522718F85009D9BA6 /* AppDelegate.m */,
 				6B6680B722718F85009D9BA6 /* ViewController.h */,
@@ -110,6 +131,8 @@
 				6B6680BF22718F88009D9BA6 /* LaunchScreen.storyboard */,
 				6B6680C222718F88009D9BA6 /* Info.plist */,
 				6B6680C322718F88009D9BA6 /* main.m */,
+				6B3CF91F2277D683000E6252 /* AnimTextFiled.h */,
+				6B3CF9202277D683000E6252 /* AnimTextFiled.m */,
 			);
 			path = AnimTextField;
 			sourceTree = "<group>";
@@ -262,6 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B3CF9212277D683000E6252 /* AnimTextFiled.m in Sources */,
+				6B3CF9272277D6CF000E6252 /* CircleItem.m in Sources */,
+				6B3CF9282277D6CF000E6252 /* CircleView.m in Sources */,
 				6B6680B922718F85009D9BA6 /* ViewController.m in Sources */,
 				6B6680C422718F88009D9BA6 /* main.m in Sources */,
 				6B6680B622718F85009D9BA6 /* AppDelegate.m in Sources */,
